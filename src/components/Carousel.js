@@ -1,6 +1,6 @@
 import React from "react";
 import useEmblaCarousel from "embla-carousel-react";
-import { catgeory_dua, catgeory_satu, catgeory_tiga } from "../assets/utils/index";
+import { catgeory_dua, catgeory_satu, catgeory_tiga, catgeory_empat } from "../assets/utils/index";
 import Autoplay from "embla-carousel-autoplay";
 const Carousel = () => {
   const [emblaRef] = useEmblaCarousel({ loop: false }, [Autoplay()]);
@@ -27,6 +27,9 @@ const Carousel = () => {
           </div>
           <div className="flex-shrink-0 w-full md:w-1/3 h-fit md:h-fit">
             <CategoryCard url={catgeory_tiga} title={"Events"} />
+          </div>
+          <div className="flex-shrink-0 w-full md:w-1/3 h-fit md:h-fit">
+            <CategoryCard url={catgeory_empat} title={"Product"} />
           </div>
         </div>
       </div>
