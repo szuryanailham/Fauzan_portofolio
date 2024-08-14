@@ -13,10 +13,10 @@ const Hero = () => {
       {/* Title and Social Media */}
       <div className="flex flex-col items-center justify-center text-center mt-10 z-10 px-5">
         {/* Title */}
-        <h1 initial={{ opacity: 0 }} duration animate={{ opacity: 1 }} exit={{ opacity: 0 }} className="text-4xl font-bold text-gray-800 dark:text-white font-lexend md:text-6xl">
+        <h1 initial={{ opacity: 0 }} duration animate={{ opacity: 1 }} exit={{ opacity: 0 }} className="text-4xl font-bold text-gray-900 dark:text-white font-lexend md:text-6xl">
           {Title}
         </h1>
-        <h2 className="mt-3 text-lg font-medium text-gray-600 dark:text-gray-300 md:text-2xl">{tagTitle}</h2>
+        <h2 className="mt-3 text-lg font-medium text-gray-800 dark:text-gray-300 md:text-2xl">{tagTitle}</h2>
 
         {/* Social Media Icons */}
         <div className="flex mt-5 text-3xl space-x-4 text-gray-800 dark:text-white">

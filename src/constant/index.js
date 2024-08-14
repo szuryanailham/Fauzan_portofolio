@@ -3,7 +3,7 @@ export const Title = "Fauzan Al Marsus ";
 export const tagTitle = " Visual Artist Photography & Videography";
 
 export const textAbout =
-  "Fauzan Al Marsus memulai perjalanan dari hobi fotografi dan videografi hingga menjadi anggota terpercaya disebuah perusahaan, dengan Dedikasinya menangkap moment untuk menghasilkan konten yang memukau,  menjadikannya pilihan ideal untuk membantu mengabadikan moment spesial anda ";
+  "Fauzan al marsus. Berawal dari hobi tentang dunia fotografi dan videografi. Yang kemudian menjadi profesi sebagai team kreatif di suatu prusahaan. Menjadikan diri lebih berkembang tentang dunia kreatif dan fotografi";
 
 export const About_two = "Abadikan setiap momen istimewa Anda, termasuk kategori pernikahan, acara, produk, wisuda, dan lainnya.";
 

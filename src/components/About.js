@@ -9,8 +9,8 @@ const About = () => {
         <img src={about} alt="about one" />
       </div>
       <div className="max-w-4xl mx-auto p-6 bg-white rounded-lg shadow-md md:text-center">
-        <h1 className="text-2xl font-bold text-gray-800 dark:text-white mb-4">About Me</h1>
-        <p className="text-md text-gray-600 dark:text-gray-300 leading-relaxed p-3">{textAbout}</p>
+        <h1 className="text-2xl font-bold text-gray-900 dark:text-white mb-4">About Me</h1>
+        <p className="text-md text-gray-900 dark:text-gray-300 leading-relaxed p-3">{textAbout}</p>
       </div>
       {/* Section 2 */}
       <div className="w-full flex justify-end mt-5">
