@@ -1,8 +1,8 @@
 import React from "react";
 import { Gallerytext } from "../constant/index";
-import { wedding1, wedding2, wedding3, sport1, sport2, sport3, wisuda1, wisuda2, wisuda3, wisuda4, wisuda5, wisuda6 } from "../assets/utils";
+import { wedding1, wedding2, wedding3, sport1, sport2, sport3, wisuda1, wisuda2, wisuda3, wisuda4, wisuda5, wisuda6, shoot1, shoot2, shoot3, shoot4, shoot5, shoot6 } from "../assets/utils";
 
-const Images = [wedding1, wedding2, wedding3, sport1, sport2, sport3, wisuda1, wisuda2, wisuda3, wisuda4, wisuda5, wisuda6];
+const Images = [wedding1, wedding2, wedding3, sport1, sport2, sport3, wisuda1, wisuda2, wisuda3, wisuda4, wisuda5, wisuda6, shoot1, shoot2, shoot3, shoot4, shoot5, shoot6];
 const Gallery = () => {
   return (
     <div id="Gallery">

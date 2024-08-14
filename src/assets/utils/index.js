@@ -1,7 +1,7 @@
 import logo from "../Images/logo.jpg";
-import profileImage from "../Images/profile_image.jpg";
-import imageAbout from "../Images/about_image.png";
-import imageAboutTwo from "../Images/about_image_two.png";
+import profileImage from "../Images/shoot/aboutMe.webp";
+import imageAbout from "../Images/shoot/photo2.webp";
+import imageAboutTwo from "../Images/about.webp";
 import category_satu from "../Images/category/photo_satu.jpg";
 import category_dua from "../Images/category/photo_dua.jpg";
 import category_tiga from "../Images/category/photo_tiga.jpg";
@@ -12,7 +12,12 @@ import wedding_tiga from "../Images/Wedding/photo3.webp";
 import sport_satu from "../Images/sport/photo1.webp";
 import sport_dua from "../Images/sport/photo2.webp";
 import sport_tiga from "../Images/sport/photo3.webp";
-
+import shoot_satu from "../Images/shoot/photo1.webp";
+import shoot_dua from "../Images/shoot/photo2.webp";
+import shoot_tiga from "../Images/shoot/photo3.webp";
+import shoot_empat from "../Images/shoot/photo4.webp";
+import shoot_lima from "../Images/shoot/photo5.webp";
+import shoot_enam from "../Images/shoot/photo6.webp";
 // wisuda
 import wisuda_satu from "../Images/wisuda/photo1.webp";
 import wisuda_dua from "../Images/wisuda/photo2.webp";
@@ -45,5 +50,12 @@ export const wisuda3 = wisuda_tiga;
 export const wisuda4 = wisuda_empat;
 export const wisuda5 = wisuda_lima;
 export const wisuda6 = wisuda_enam;
+
+export const shoot1 = shoot_satu;
+export const shoot2 = shoot_dua;
+export const shoot3 = shoot_tiga;
+export const shoot4 = shoot_empat;
+export const shoot5 = shoot_lima;
+export const shoot6 = shoot_enam;
 
 //  end Gallery component //
