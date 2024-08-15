@@ -1,6 +1,6 @@
 import logo from "../Images/logo.jpg";
 import profileImage from "../Images/shoot/aboutMe.webp";
-import imageAbout from "../Images/shoot/photo2.webp";
+import imageAbout from "../Images/about1.webp";
 import imageAboutTwo from "../Images/about.webp";
 import category_satu from "../Images/category/photo_satu.jpg";
 import category_dua from "../Images/category/photo_dua.jpg";
