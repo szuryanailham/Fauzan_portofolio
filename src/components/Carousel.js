@@ -8,7 +8,7 @@ const Carousel = () => {
   const CategoryCard = ({ url, title }) => {
     return (
       <div className="relative group">
-        <img src={url} alt="categry slide" className="w-full transition duration-300 ease-in-out group-hover:brightness-75" />
+        <img src={url} alt="categry slide" className="w-full h-[450px] transition duration-300 ease-in-out group-hover:brightness-75" />
         <div className="absolute inset-0 flex items-center justify-center opacity-0 transition-opacity duration-300 ease-in-out group-hover:opacity-100">
           <span className="text-white text-3xl">{title}</span>
         </div>
