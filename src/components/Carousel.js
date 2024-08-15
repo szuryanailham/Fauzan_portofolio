@@ -26,10 +26,10 @@ const Carousel = () => {
             <CategoryCard url={catgeory_dua} title={"Wedding"} />
           </div>
           <div className="flex-shrink-0 w-full md:w-1/3 h-fit md:h-fit">
-            <CategoryCard url={catgeory_tiga} title={"Events"} />
+            <CategoryCard url={catgeory_tiga} title={"Product"} />
           </div>
           <div className="flex-shrink-0 w-full md:w-1/3 h-fit md:h-fit">
-            <CategoryCard url={catgeory_empat} title={"Product"} />
+            <CategoryCard url={catgeory_empat} title={"Events"} />
           </div>
         </div>
       </div>
