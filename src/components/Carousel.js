@@ -7,14 +7,15 @@ const Carousel = () => {
 
   const CategoryCard = ({ url, title }) => {
     return (
-      <div className="relative group">
-        <img src={url} alt="categry slide" className="w-full h-[450px] transition duration-300 ease-in-out group-hover:brightness-75" />
+      <div className="relative group w-full h-[300px] transition duration-300 ease-in-out">
+        <div className="w-full h-full bg-cover bg-center transition duration-300 ease-in-out group-hover:brightness-75" style={{ backgroundImage: `url(${url})`, filter: "brightness(100%)" }}></div>
         <div className="absolute inset-0 flex items-center justify-center opacity-0 transition-opacity duration-300 ease-in-out group-hover:opacity-100">
           <span className="text-white text-3xl">{title}</span>
         </div>
       </div>
     );
   };
+
   return (
     <>
       <div className="overflow-hidden" ref={emblaRef}>
