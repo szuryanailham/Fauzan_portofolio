@@ -46,7 +46,17 @@ const Gallery = () => {
       <div className="">
         <div variants={container} className="grid grid-cols-2 md:grid-cols-3 gap-4 p-3">
           {Images.map((image, index) => (
-            <motion.div key={index}>
+            <motion.div
+              key={index}
+              initial={{ opacity: 0, y: 50 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true }}
+              transition={{
+                ease: "linear",
+                duration: 1,
+                y: { duration: 1 },
+              }}
+            >
               <img variants={item} className="h-auto max-w-full rounded-lg" src={image} alt={`Gallery  ${index + 1}dfdf`} />
             </motion.div>
           ))}
