@@ -1,4 +1,4 @@
-import Profile from "../assets/Images/profile_image.jpg";
+import Profile from "../assets/Images/profile_image.webp";
 import { tagTitle, Title } from "../constant/index";
 import { FaWhatsappSquare } from "react-icons/fa";
 import { AiFillTikTok } from "react-icons/ai";
